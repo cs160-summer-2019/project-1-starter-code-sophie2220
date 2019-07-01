@@ -6,11 +6,57 @@
 	<title>Forecast - Alert!</title>
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
-
+  	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/forecast-alert.css' %}" />
+  
 </head>
 <body>
 	<!-- your single-location forecast with alert interface here -->
+  <div class = "hero container">
+    <div class = "row">
+      <div class = "col-xs-4">
+        <button class="btn btn-info btn-primary" type="button">Home</button>
+      </div>
+      <div class = "col-xs-4">
+        <h2>
+          Extreme Weather!
+        </h2>
+      </div>
+      <div class = "col-xs-4">
+        <button class="btn btn-info btn-primary" type="button">Return</button>
+      </div>
+    </div>
+    <div class = "row">
+      <h3>
+        Projected to last:
+      </h3>
+    </div>
+    <div class = "row">
+      <h3>
+        0 hours, 5 minutes
+      </h3>
+    </div>
+    <div class = "row">
+      <img class = "image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ehNYfIhEr2Qh7Wqu5uuvNNchIvrmYUDEhX20Loc3yAO9j3_3UA">
+    </div>
+    <div class = "row">
+      <h3>
+        TORNADO
+      </h3>
+    </div>
+    <div class = "row">
+      <h3>
+        Kansas City
+      </h3>
+    </div>
+    <div class = "row button">
+        <button class="btn btn-info btn-danger" type="button">Tap for Hourly Forecast</button>
+    </div>
+    <div class = "row">
+      <h3>
+        <img class = "image-2" src="https://i.ytimg.com/vi/NUbePJxgr9o/maxresdefault.jpg">
+      </h3>
+    </div>
+  </div>
 </body>
 </html>
 

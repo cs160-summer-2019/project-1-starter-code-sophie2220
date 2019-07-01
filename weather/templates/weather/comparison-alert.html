@@ -3,13 +3,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Comparison - Alert!</title>
+	<title>Home</title>
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/home.css' %}" />
 
 </head>
 <body>
-	<!-- your comparison interface with alert here -->
+	<!-- your comparison interface with home here -->
+  <div class = "hero container">
+    <div class = "row">
+      <h2>
+        Hello! Where would you 
+      </h2>
+    </div>
+    <div class = "row">
+      <h2>
+        like to travel today?
+      </h2>
+    </div>
+    <div class = "row">
+      <img class = "image" src = "https://d384u2mq2suvbq.cloudfront.net/public/spree/products/1597/jumbo/Japanese-Cherry-Blossom-Fragrance-Oil.jpg?1529607178">
+    </div>
+    <div class = "row">
+      <h3>
+        Live life in full bloom!
+      </h3>
+      <h4>
+        Would you like to go to Kyoto, Japan?
+      </h4>
+    </div>
+    <div class = "row button">
+      <button class="btn btn-info btn-info" type="button">Tap for Hourly Forecast</button>
+    </div>
+    <div class = "row textbox">
+      <input type="text" placeholder="Search for other destinations..." size = "100">
+    </div>
+  </div>
 </body>
 </html>

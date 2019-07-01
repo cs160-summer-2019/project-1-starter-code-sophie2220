@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+.hero {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.hero::before {
+  background-image: url("https://i.pinimg.com/originals/cc/a8/7f/cca87fe364dd1db42f11438fed27d438.png");
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.15;
+}
+body{
+  color: rgba(0, 22, 43, 1);
+  text-align: center;
+}
+.temp {
+  margin: 50px 10px;
+}
+h1, h2, h3, h4 {
+   font-family: "Futura";
+}
+h2 {
+  font-size: 60px;
+  margin: 20px 100px;
+}
+h3 {
+  font-size: 50px;
+  margin: 20px auto;
+  font-type: bold;
+}
+h4 {
+  font-size: 40px;
+  margin: 20px 35px;
+}
+.kyoto {
+  background-image: url("https://cdn.contexttravel.com/image/upload/c_fill,q_60,w_2600/v1553227874/production/city/hero_image_27_1553227874.jpg");
+  opacity: 0.8;
+}
+.kansas-city {
+  background-image: url("https://www.nationalgeographic.com/content/dam/travel/2018-digital/city-guides-2018/kansas-city-missouri/downtown-cityscape-kansas-city-missouri.ngsversion.1527885002417.adapt.1900.1.jpg");
+  opacity: 0.8;
+}
+.hangzhou {
+  background-image: url("https://www.worldatlas.com/r/w728-h425-c728x425/upload/db/fa/05/shutterstock-482548453.jpg");
+  opacity: 0.8;
+}
+.kathmandu {
+  background-image: url("https://assets.vogue.in/photos/5ce431b2f55c27562ea27f1a/16:9/w_1920,c_limit/featured.2.jpg");
+  opacity: 0.8;
+}
+.alert {
+  width: 150px;
+  height: 150px;
+  margin: 20px 10px 20px 10px;
+}
+.small-image {
+  width: 150px;
+  height: 150px;
+  margin: 20px 10px 20px 400px;
+}
+.small-image-2 {
+  width: 150px;
+  height: 150px;
+  margin: 20px 10px 20px 100px;
+}
+.small-image-3 {
+  width: 150px;
+  height: 150px;
+  margin: 20px 10px 20px 300px;
+}
+.small-image-4 {
+  width: 150px;
+  height: 150px;
+  margin: 20px 10px 20px 280px;
+}
+.cursive {
+  font-size: 60px;
+  font-family: cursive;
+}
